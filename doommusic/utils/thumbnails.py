@@ -10,7 +10,7 @@ from textwrap import wrap
 from unidecode import unidecode
 from py_yt import VideosSearch
 
-from SHUKLAMUSIC import app
+from doommusic import app
 from config import YOUTUBE_IMG_URL
 
 
@@ -351,8 +351,8 @@ async def get_thumb(videoid: str) -> str:
                 except Exception:
                     return ImageFont.load_default()
 
-        FONT_BOLD = "SHUKLAMUSIC/assets/font2.ttf"
-        FONT_REG = "SHUKLAMUSIC/assets/font.ttf"
+        FONT_BOLD = "doommusic/assets/font2.ttf"
+        FONT_REG = "doommusic/assets/font.ttf"
 
         fn_eyebrow = load_font(FONT_REG, sc(20))
         fn_title = load_font(FONT_BOLD, sc(46))
