@@ -4,7 +4,7 @@ from pyrogram.types import InlineKeyboardButton
 from pyrogram.enums import ButtonStyle
 
 import config
-from SHUKLAMUSIC.utils.formatters import time_to_seconds
+from doommusic.utils.formatters import time_to_seconds
 
 
 def track_markup(_, videoid, user_id, channel, fplay):
