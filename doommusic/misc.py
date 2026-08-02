@@ -16,7 +16,7 @@ import time
 import heroku3
 from pyrogram import filters
 import config
-from SHUKLAMUSIC.core.mongo import mongodb
+from doommusic.core.mongo import mongodb
 from .logging import LOGGER
 
 SUDOERS = filters.user()
