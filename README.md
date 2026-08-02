@@ -102,7 +102,7 @@ python3 -m DoomAudio
 ### 💜 Deploy to Heroku
 
 <p align="center">
-  <a href="https://dashboard.heroku.com/new?template=https://github.com/yashcodex121/doommusic.git">
+  <a href="https://dashboard.heroku.com/new?template=https://github.com/Yewsdhi/CHALONEWREPO">
     <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy to Heroku">
   </a>
 </p>
