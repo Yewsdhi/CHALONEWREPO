@@ -16,7 +16,7 @@ from doommusic.core.bot import YASH
 from doommusic.core.dir import dirr
 from doommusic.core.git import git
 from doommusic.core.userbot import Userbot
-from doommusic.misc import dbb, heroku
+from doommusic.misc import heroku
 from .logging import LOGGER
 
 dirr()
